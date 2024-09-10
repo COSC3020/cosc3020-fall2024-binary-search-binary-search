@@ -10,7 +10,7 @@ function binarySearch(list, element)
 
     while (left <= right) 
     {
-        const middle = Math.floor((left + right) / 2);
+        let middle = Math.floor((left + right) / 2);
 
         if (list[middle] === element)
         {
